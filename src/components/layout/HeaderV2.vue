@@ -24,7 +24,7 @@
             </md-menu-item>
           </md-menu-content>
         </md-menu>
-        <md-menu md-size="small">
+        <md-menu md-size="huge">
           <md-button class="md-primary" md-menu-trigger>Material</md-button>
           <md-menu-content>
             <md-menu-item>
@@ -35,6 +35,28 @@
             </md-menu-item>
             <md-menu-item>
               <md-button class="md-primary" to="/links-and-buttons">Links And Buttons</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/regular-cards">Regular Cards</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/cards-with-images">Cards With Images</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/card-background-with-aspect-ratio"
+              >Card Background With Aspect Ratio</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/cardthemes">CardThemes</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/cardexpansioncontrol">CardExpansionControl</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/bbdefaultfixedstyle">BBDefaultFixedStyle</md-button>
             </md-menu-item>
           </md-menu-content>
         </md-menu>
@@ -64,3 +86,9 @@ export default {
   name: "ContentActions"
 };
 </script>
+<style scoped>
+/* .md-menu-content {
+  height: 500px;
+} */
+</style>
+

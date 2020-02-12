@@ -6,6 +6,13 @@ import FloatingActionButtons from "./views/MaterialExamples/ButtonExamples/Float
 import LinksAndButtons from "./views/MaterialExamples/ButtonExamples/LinksAndButtons.vue";
 import HelloWorld from "./views/HelloWorld.vue";
 import WorkerPage from "./views/WorkerPage.vue";
+import RegularCards from "./views/MaterialExamples/CardExamples/RegularCards.vue";
+import CardsWithImages from "./views/MaterialExamples/CardExamples/CardsWithImages.vue";
+import CardBackgroundWithAspectRatio from "./views/MaterialExamples/CardExamples/CardBackgroundWithAspectRatio.vue";
+import CardThemes from "./views/MaterialExamples/CardExamples/CardThemes.vue";
+import CardExpansionControl from "./views/MaterialExamples/CardExamples/CardExpansionControl.vue";
+import BBDefaultFixedStyle from "./views/MaterialExamples/ButtonBarExamples/BBDefaultFixedStyle.vue";
+
 Vue.use(Router);
 
 export default new Router({
@@ -48,6 +55,36 @@ export default new Router({
       path: "/links-and-buttons",
       name: "LinksAndButtons",
       component: LinksAndButtons
+    },
+    {
+      path: "/regular-cards",
+      name: "RegularCards",
+      component: RegularCards
+    },
+    {
+      path: "/cards-with-images",
+      name: "CardsWithImages",
+      component: CardsWithImages
+    },
+    {
+      path: "/card-background-with-aspect-ratio",
+      name: "CardBackgroundWithAspectRatio",
+      component: CardBackgroundWithAspectRatio
+    },
+    {
+      path: "/cardthemes",
+      name: "CardThemes",
+      component: CardThemes
+    },
+    {
+      path: "/cardexpansioncontrol",
+      name: "CardExpansionControl",
+      component: CardExpansionControl
+    },
+    {
+      path: "/bbdefaultfixedstyle",
+      name: "BBDefaultFixedStyle",
+      component: BBDefaultFixedStyle
     }
   ]
 });
