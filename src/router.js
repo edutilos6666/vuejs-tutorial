@@ -4,7 +4,8 @@ import Home from "./views/Home.vue";
 import ButtonsWithIconsExample from "./views/MaterialExamples/ButtonExamples/ButtonsWithIconsExample.vue";
 import FloatingActionButtons from "./views/MaterialExamples/ButtonExamples/FloatingActionButtons.vue";
 import LinksAndButtons from "./views/MaterialExamples/ButtonExamples/LinksAndButtons.vue";
-
+import HelloWorld from "./views/HelloWorld.vue";
+import WorkerPage from "./views/WorkerPage.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -22,6 +23,16 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/hello-world",
+      name: "hello-world",
+      component: HelloWorld
+    },
+    {
+      path: "/worker",
+      name: "worker",
+      component: WorkerPage
     },
     {
       path: "/buttons-with-icons-example",

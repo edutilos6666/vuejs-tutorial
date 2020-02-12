@@ -8,14 +8,25 @@
 
         <!-- add menus here -->
         <md-menu md-size="small">
-          <md-button class="md-primary" md-menu-trigger>TodoList &amp; Material</md-button>
+          <md-button class="md-primary" md-menu-trigger>Todo List</md-button>
           <md-menu-content>
             <md-menu-item>
-              <md-button class="md-primary" to="/">Home</md-button>
+              <md-button class="md-primary" to="/">Todo</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/hello-world">Hello World</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/worker">Worker</md-button>
             </md-menu-item>
             <md-menu-item>
               <md-button class="md-primary" to="/about">About</md-button>
             </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+        <md-menu md-size="small">
+          <md-button class="md-primary" md-menu-trigger>Material</md-button>
+          <md-menu-content>
             <md-menu-item>
               <md-button class="md-primary" to="/buttons-with-icons-example">Buttons with Icons</md-button>
             </md-menu-item>
