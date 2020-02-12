@@ -11,7 +11,7 @@ import CardsWithImages from "./views/MaterialExamples/CardExamples/CardsWithImag
 import CardBackgroundWithAspectRatio from "./views/MaterialExamples/CardExamples/CardBackgroundWithAspectRatio.vue";
 import CardThemes from "./views/MaterialExamples/CardExamples/CardThemes.vue";
 import CardExpansionControl from "./views/MaterialExamples/CardExamples/CardExpansionControl.vue";
-import BBDefaultFixedStyle from "./views/MaterialExamples/ButtonBarExamples/BBDefaultFixedStyle.vue";
+import BBDefaultFixedStyle from "./views/MaterialExamples/BottomBarExamples/BBDefaultFixedStyle.vue";
 
 Vue.use(Router);
 

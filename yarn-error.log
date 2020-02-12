@@ -1,0 +1,79 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Haskell\bin;C:\a\Haskell Platform\8.0.2\lib\extralibs\bin;C:\a\Haskell Platform\8.0.2\bin;C:\a\oracleDB12C\app\edutilos123\product\12.1.0\dbhome_1\bin;C:\a\oracleDB12C\app\edutilos666\product\12.1.0\dbhome_1\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\a\jdk1.7.0_51\bin;C:\a\jdk1.8.0_66\bin;C:\a\Groovy\bin;C:\a\gradle\bin;C:\a\scala\bin;C:\a\xampp\mysql\bin;C:\a\git\bin;C:\a\PostgreSQL\bin;C:\a\NASM2;C:\a\MinGW\bin;C:\Users\edutilos\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\a\digitaltechnik\iverilog\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\a\mongo\bin;C:\a\typesafe-activator-1.3.7;c:\a\Vim\vim80;c:\a\xampp\php;C:\a\Python35;C:\a\Python35\Scripts;C:/a/go/bin;C:\a\Visual_Studio_Express_2013\VC\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\a\cmake\bin;C:\a\myBins;C:\Qt86\5.8\msvc2015\bin;C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\Modules\TShell\TShell\;C:\a\VersionControl\TortoiseSVN\bin;C:\a\emacs\bin;C:\a\Haskell Platform\8.0.2\mingw\bin;C:\a\math\MATLAB\R2017a\runtime\win64;C:\a\math\MATLAB\R2017a\bin;C:\a\zte\ZTE 3GPhone USB Driver\Drivers\64bit\WIN7;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Yarn\bin\;C:\Users\edutilos\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\edutilos\AppData\Roaming\cabal\bin;C:\a\Haskell Platform\bin;C:\Users\edutilos\AppData\Local\Microsoft\WindowsApps;C:\Users\edutilos\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edutilos\AppData\Local\Yarn\bin;C:\Users\edutilos\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\edutilos\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://npm.mirror.ddg.sh/debug/-/debug-3.1.0.tgz: EPERM: operation not permitted, open 'C:\Users\edutilos\AppData\Local\Yarn\Cache\v6\npm-debug-3.1.0-5bb5a0672628b64149566ba16819e61518c67261-integrity\node_modules\debug\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "vue_crash_todolist",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "node-sass": "^4.13.1",
+      "uuid": "^3.3.2",
+      "vue": "^2.5.21",
+      "vue-material": "^1.0.0-beta-11",
+      "vue-router": "^3.0.1",
+      "vuelidate": "^0.7.5"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.3.0",
+      "@vue/cli-plugin-eslint": "^3.3.0",
+      "@vue/cli-service": "^3.3.0",
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.8.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "sass": "^1.25.0",
+      "sass-loader": "^8.0.2",
+      "vue-template-compiler": "^2.5.21"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "rules": {},
+      "parserOptions": {
+        "parser": "babel-eslint"
+      }
+    },
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
