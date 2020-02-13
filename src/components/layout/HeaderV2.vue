@@ -119,6 +119,46 @@
             <md-menu-item>
               <md-button class="md-primary" to="/avatarmultiplesizes">AvatarMultipleSizes</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/papercontent">PaperContent</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/datepickerbasic">DatepickerBasic</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/datepickerwithdifferenttypebinding"
+              >DatepickerWithDifferentTypeBinding</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/datepickerlabeled">DatepickerLabeled</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/datepickerinitialdateselected"
+              >DatepickerInitialDateSelected</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/datepickerimmediateselection"
+              >DatepickerImmediateSelection</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/datepickernoweekendsavailable"
+              >DatepickerNoWeekendsAvailable</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

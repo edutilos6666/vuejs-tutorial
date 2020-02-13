@@ -27,6 +27,13 @@ import AppOverlappingContent from "./views/MaterialExamples/AppExamples/AppOverl
 import AvatarDefault from "./views/MaterialExamples/AvatarExamples/AvatarDefault.vue";
 import AvatarPlaceholder from "./views/MaterialExamples/AvatarExamples/AvatarPlaceholder.vue";
 import AvatarMultipleSizes from "./views/MaterialExamples/AvatarExamples/AvatarMultipleSizes.vue";
+import PaperContent from "./views/MaterialExamples/ContentExamples/PaperContent.vue";
+import DatepickerBasic from "./views/MaterialExamples/DatepickerExamples/DatepickerBasic";
+import DatepickerLabeled from "./views/MaterialExamples/DatepickerExamples/DatepickerLabeled";
+import DatepickerWithDifferentTypeBinding from "./views/MaterialExamples/DatepickerExamples/DatepickerWithDifferentTypeBinding";
+import DatepickerInitialDateSelected from "./views/MaterialExamples/DatepickerExamples/DatepickerInitialDateSelected";
+import DatepickerImmediateSelection from "./views/MaterialExamples/DatepickerExamples/DatepickerImmediateSelection";
+import DatepickerNoWeekendsAvailable from "./views/MaterialExamples/DatepickerExamples/DatepickerNoWeekendsAvailable";
 
 Vue.use(Router);
 
@@ -175,6 +182,41 @@ export default new Router({
       path: "/avatarmultiplesizes",
       name: "AvatarMultipleSizes",
       component: AvatarMultipleSizes
+    },
+    {
+      path: "/papercontent",
+      name: "PaperContent",
+      component: PaperContent
+    },
+    {
+      path: "/datepickerbasic",
+      name: "DatepickerBasic",
+      component: DatepickerBasic
+    },
+    {
+      path: "/datepickerlabeled",
+      name: "DatepickerLabeled",
+      component: DatepickerLabeled
+    },
+    {
+      path: "/datepickerwithdifferenttypebinding",
+      name: "DatepickerWithDifferentTypeBinding",
+      component: DatepickerWithDifferentTypeBinding
+    },
+    {
+      path: "/datepickerinitialdateselected",
+      name: "DatepickerInitialDateSelected",
+      component: DatepickerInitialDateSelected
+    },
+    {
+      path: "/datepickerimmediateselection",
+      name: "DatepickerImmediateSelection",
+      component: DatepickerImmediateSelection
+    },
+    {
+      path: "/datepickernoweekendsavailable",
+      name: "DatepickerNoWeekendsAvailable",
+      component: DatepickerNoWeekendsAvailable
     }
   ]
 });
