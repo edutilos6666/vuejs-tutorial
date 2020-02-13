@@ -116,6 +116,13 @@ import ToolbarWithRowsTitleAndIcons from "./views/MaterialExamples/ToolbarExampl
 import TextPosition from "./views/MaterialExamples/TooltipExamples/TextPosition";
 import Delay from "./views/MaterialExamples/TooltipExamples/Delay";
 import Trigger from "./views/MaterialExamples/TooltipExamples/Trigger";
+// PrimeVue Examples
+import QuickStart from "./views/PrimeVueExamples/QuickStart/QuickStart";
+import PVAutoComplete from "./views/PrimeVueExamples/AutoCompleteExamples/PVAutoComplete";
+import PVCalendarExample from "./views/PrimeVueExamples/PVCalendarExample";
+import PVEditorExample from "./views/PrimeVueExamples/PVEditorExample";
+import PVPieChart from "./views/PrimeVueExamples/ChartExamples/PVPieChart";
+import PVBarChart from "./views/PrimeVueExamples/ChartExamples/PVBarChart";
 
 Vue.use(Router);
 
@@ -709,6 +716,36 @@ export default new Router({
       path: "/trigger",
       name: "Trigger",
       component: Trigger
+    },
+    {
+      path: "/quickstart",
+      name: "QuickStart",
+      component: QuickStart
+    },
+    {
+      path: "/pvautocomplete",
+      name: "PVAutoComplete",
+      component: PVAutoComplete
+    },
+    {
+      path: "/pvcalendarexample",
+      name: "PVCalendarExample",
+      component: PVCalendarExample
+    },
+    {
+      path: "/pveditorexample",
+      name: "PVEditorExample",
+      component: PVEditorExample
+    },
+    {
+      path: "/pvpiechart",
+      name: "PVPieChart",
+      component: PVPieChart
+    },
+    {
+      path: "/pvbarchart",
+      name: "PVBarChart",
+      component: PVBarChart
     }
   ]
 });

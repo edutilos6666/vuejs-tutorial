@@ -6,7 +6,7 @@
           <md-icon>menu</md-icon>
         </md-button>
 
-        <!-- add menus here -->
+        <!-- Hello World Examples(TodoList, WorkerList, HelloWorld, About)  -->
         <md-menu md-size="small">
           <md-button class="md-primary" md-menu-trigger>Todo List</md-button>
           <md-menu-content>
@@ -24,6 +24,8 @@
             </md-menu-item>
           </md-menu-content>
         </md-menu>
+
+        <!-- Material Vue Examples -->
         <md-menu md-size="huge">
           <md-button class="md-primary" md-menu-trigger>Material</md-button>
           <md-menu-content>
@@ -503,6 +505,33 @@
 
             <md-menu-item>
               <md-button class="md-primary" to="/trigger">Tooltip Trigger</md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+
+        <!-- PrimeVue Examples -->
+        <md-menu md-size="small">
+          <md-button class="md-primary" md-menu-trigger>PrimeVue</md-button>
+          <md-menu-content>
+            <md-menu-item>
+              <md-button class="md-primary" to="/quickstart">PrimeVue QuickStart</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvautocomplete">PVAutoComplete</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvcalendarexample">PVCalendarExample</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/pveditorexample">PVEditorExample</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvpiechart">PVPieChart</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvbarchart">PVBarChart</md-button>
             </md-menu-item>
           </md-menu-content>
         </md-menu>

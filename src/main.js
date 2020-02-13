@@ -13,6 +13,29 @@ import "vue-material/dist/vue-material.min.css";
 import "vue-material/dist/theme/default-dark.css";
 Vue.use(VueMaterial);
 
+import PVInputText from "primevue/inputtext";
+import PVButton from "primevue/button";
+import PVToast from "primevue/toast";
+import PVToastService from "primevue/toastservice";
+import PVAutoComplete from "primevue/autocomplete";
+import PVCalendar from "primevue/calendar";
+import PVEditor from "primevue/editor";
+import PVChart from "primevue/chart";
+
+Vue.use(PVToastService);
+
+Vue.component("PVInputText", PVInputText);
+Vue.component("PVButton", PVButton);
+Vue.component("PVToast", PVToast);
+Vue.component("PVAutoComplete", PVAutoComplete);
+Vue.component("PVCalendar", PVCalendar);
+Vue.component("PVEditor", PVEditor);
+Vue.component("PVChart", PVChart);
+
+import "primevue/resources/themes/nova-light/theme.css";
+import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
+
 new Vue({
   router,
   render: h => h(App)
