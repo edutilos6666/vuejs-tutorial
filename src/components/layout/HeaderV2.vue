@@ -204,6 +204,16 @@
                 to="/drawerminidraweralwaysvisible"
               >DrawerMiniDrawerAlwaysVisible</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/esdefault">ESDefault</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/esrounded">ESRounded</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/eshuecolors">ESHueColors</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

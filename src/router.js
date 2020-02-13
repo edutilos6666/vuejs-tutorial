@@ -45,6 +45,9 @@ import DrawerClipped from "./views/MaterialExamples/DrawerExamples/DrawerClipped
 import DrawerCard from "./views/MaterialExamples/DrawerExamples/DrawerCard";
 import DrawerPersistent from "./views/MaterialExamples/DrawerExamples/DrawerPersistent";
 import DrawerMiniDrawerAlwaysVisible from "./views/MaterialExamples/DrawerExamples/DrawerMiniDrawerAlwaysVisible";
+import ESDefault from "./views/MaterialExamples/EmptyStateExamples/ESDefault";
+import ESRounded from "./views/MaterialExamples/EmptyStateExamples/ESRounded";
+import ESHueColors from "./views/MaterialExamples/EmptyStateExamples/ESHueColors";
 
 Vue.use(Router);
 
@@ -283,6 +286,21 @@ export default new Router({
       path: "/drawerminidraweralwaysvisible",
       name: "DrawerMiniDrawerAlwaysVisible",
       component: DrawerMiniDrawerAlwaysVisible
+    },
+    {
+      path: "/esdefault",
+      name: "ESDefault",
+      component: ESDefault
+    },
+    {
+      path: "/esrounded",
+      name: "ESRounded",
+      component: ESRounded
+    },
+    {
+      path: "/eshuecolors",
+      name: "ESHueColors",
+      component: ESHueColors
     }
   ]
 });
