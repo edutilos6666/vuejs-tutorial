@@ -96,6 +96,15 @@ import LinearSteppers from "./views/MaterialExamples/SteppersExamples/LinearStep
 import NonEditableSteps from "./views/MaterialExamples/SteppersExamples/NonEditableSteps";
 import VueRouterIntegration from "./views/MaterialExamples/SteppersExamples/VueRouterIntegration";
 import SubheaderBasic from "./views/MaterialExamples/SubheaderExamples/SubheaderBasic";
+import BasicTable from "./views/MaterialExamples/TableExamples/BasicTable";
+import TableWithinACard from "./views/MaterialExamples/TableExamples/TableWithinACard";
+import CustomTemplate from "./views/MaterialExamples/TableExamples/CustomTemplate";
+import Sort from "./views/MaterialExamples/TableExamples/Sort";
+import CustomSortFunction from "./views/MaterialExamples/TableExamples/CustomSortFunction";
+import FixedHeaders from "./views/MaterialExamples/TableExamples/FixedHeaders";
+import SearchAndEmptyState from "./views/MaterialExamples/TableExamples/SearchAndEmptyState";
+import SingleSelection from "./views/MaterialExamples/TableExamples/SingleSelection";
+import MultipleSelection from "./views/MaterialExamples/TableExamples/MultipleSelection";
 
 Vue.use(Router);
 
@@ -589,6 +598,51 @@ export default new Router({
       path: "/subheaderbasic",
       name: "SubheaderBasic",
       component: SubheaderBasic
+    },
+    {
+      path: "/basictable",
+      name: "BasicTable",
+      component: BasicTable
+    },
+    {
+      path: "/tablewithinacard",
+      name: "TableWithinACard",
+      component: TableWithinACard
+    },
+    {
+      path: "/customtemplate",
+      name: "CustomTemplate",
+      component: CustomTemplate
+    },
+    {
+      path: "/sort",
+      name: "Sort",
+      component: Sort
+    },
+    {
+      path: "/customsortfunction",
+      name: "CustomSortFunction",
+      component: CustomSortFunction
+    },
+    {
+      path: "/fixedheaders",
+      name: "FixedHeaders",
+      component: FixedHeaders
+    },
+    {
+      path: "/searchandemptystate",
+      name: "SearchAndEmptyState",
+      component: SearchAndEmptyState
+    },
+    {
+      path: "/singleselection",
+      name: "SingleSelection",
+      component: SingleSelection
+    },
+    {
+      path: "/multipleselection",
+      name: "MultipleSelection",
+      component: MultipleSelection
     }
   ]
 });

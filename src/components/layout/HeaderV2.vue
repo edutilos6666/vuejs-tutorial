@@ -424,6 +424,37 @@
             <md-menu-item>
               <md-button class="md-primary" to="/subheaderbasic">SubheaderBasic</md-button>
             </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/basictable">BasicTable</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/tablewithinacard">TableWithinACard</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/customtemplate">CustomTemplate</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/sort">Sort</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/customsortfunction">CustomSortFunction</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/fixedheaders">FixedHeaders</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/searchandemptystate">SearchAndEmptyState</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/singleselection">SingleSelection</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/multipleselection">MultipleSelection</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
