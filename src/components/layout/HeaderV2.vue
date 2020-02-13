@@ -368,6 +368,14 @@
                 to="/richcontentandiconalignment"
               >RichContentAndIconAlignment</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/progressbar">ProgressBar</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/spinner">Spinner</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

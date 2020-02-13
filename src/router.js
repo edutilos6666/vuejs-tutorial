@@ -83,6 +83,8 @@ import Alignments from "./views/MaterialExamples/MenuExamples/Alignments";
 import Sizes from "./views/MaterialExamples/MenuExamples/Sizes";
 import AutoClose from "./views/MaterialExamples/MenuExamples/AutoClose";
 import RichContentAndIconAlignment from "./views/MaterialExamples/MenuExamples/RichContentAndIconAlignment";
+import ProgressBar from "./views/MaterialExamples/ProgressExamples/ProgressBar";
+import Spinner from "./views/MaterialExamples/ProgressExamples/Spinner";
 
 Vue.use(Router);
 
@@ -511,6 +513,16 @@ export default new Router({
       path: "/richcontentandiconalignment",
       name: "RichContentAndIconAlignment",
       component: RichContentAndIconAlignment
+    },
+    {
+      path: "/progressbar",
+      name: "ProgressBar",
+      component: ProgressBar
+    },
+    {
+      path: "/spinner",
+      name: "Spinner",
+      component: Spinner
     }
   ]
 });
