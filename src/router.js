@@ -69,6 +69,9 @@ import InputWithPrefixesAndSuffixes from "./views/MaterialExamples/FormExamples/
 import Radio from "./views/MaterialExamples/FormExamples/Radio";
 import Select from "./views/MaterialExamples/FormExamples/Select";
 import Switch from "./views/MaterialExamples/FormExamples/Switch";
+import MaterialIcons from "./views/MaterialExamples/IconExamples/MaterialIcons";
+import CustomFonts from "./views/MaterialExamples/IconExamples/CustomFonts";
+import SVGAssets from "./views/MaterialExamples/IconExamples/SVGAssets";
 
 Vue.use(Router);
 
@@ -427,6 +430,21 @@ export default new Router({
       path: "/switch",
       name: "Switch",
       component: Switch
+    },
+    {
+      path: "/materialicons",
+      name: "MaterialIcons",
+      component: MaterialIcons
+    },
+    {
+      path: "/customfonts",
+      name: "CustomFonts",
+      component: CustomFonts
+    },
+    {
+      path: "/svgassets",
+      name: "SVGAssets",
+      component: SVGAssets
     }
   ]
 });

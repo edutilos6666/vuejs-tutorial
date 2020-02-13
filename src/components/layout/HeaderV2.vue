@@ -314,6 +314,18 @@
             <md-menu-item>
               <md-button class="md-primary" to="/switch">Switch</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/materialicons">MaterialIcons</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/customfonts">CustomFonts</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/svgassets">SVGAssets</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
