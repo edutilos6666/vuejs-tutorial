@@ -78,5 +78,6 @@ export default {
 
 <style lang="scss" scoped>
 .md-autocomplete {
+  display: block;
 }
 </style>
