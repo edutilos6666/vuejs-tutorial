@@ -492,6 +492,18 @@
                 to="/toolbarwithrowstitleandicons"
               >ToolbarWithRowsTitleAndIcons</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/textposition">Tooltip TextPosition</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/delay">Tooltip Delay</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/trigger">Tooltip Trigger</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

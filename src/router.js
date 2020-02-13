@@ -113,6 +113,9 @@ import TabWithCustomTemplate from "./views/MaterialExamples/TabExamples/TabWithC
 import RegularToolbars from "./views/MaterialExamples/ToolbarExamples/RegularToolbars";
 import ToolbarWithDifferentSizes from "./views/MaterialExamples/ToolbarExamples/ToolbarWithDifferentSizes";
 import ToolbarWithRowsTitleAndIcons from "./views/MaterialExamples/ToolbarExamples/ToolbarWithRowsTitleAndIcons";
+import TextPosition from "./views/MaterialExamples/TooltipExamples/TextPosition";
+import Delay from "./views/MaterialExamples/TooltipExamples/Delay";
+import Trigger from "./views/MaterialExamples/TooltipExamples/Trigger";
 
 Vue.use(Router);
 
@@ -691,6 +694,21 @@ export default new Router({
       path: "/toolbarwithrowstitleandicons",
       name: "ToolbarWithRowsTitleAndIcons",
       component: ToolbarWithRowsTitleAndIcons
+    },
+    {
+      path: "/textposition",
+      name: "TextPosition",
+      component: TextPosition
+    },
+    {
+      path: "/delay",
+      name: "Delay",
+      component: Delay
+    },
+    {
+      path: "/trigger",
+      name: "Trigger",
+      component: Trigger
     }
   ]
 });
