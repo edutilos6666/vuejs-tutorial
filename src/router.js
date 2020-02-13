@@ -105,6 +105,11 @@ import FixedHeaders from "./views/MaterialExamples/TableExamples/FixedHeaders";
 import SearchAndEmptyState from "./views/MaterialExamples/TableExamples/SearchAndEmptyState";
 import SingleSelection from "./views/MaterialExamples/TableExamples/SingleSelection";
 import MultipleSelection from "./views/MaterialExamples/TableExamples/MultipleSelection";
+import NavigationalTabs from "./views/MaterialExamples/TabExamples/NavigationalTabs";
+import TabWithInnerContent from "./views/MaterialExamples/TabExamples/TabWithInnerContent";
+import TabWithHueColors from "./views/MaterialExamples/TabExamples/TabWithHueColors";
+import TabWithSVGIcons from "./views/MaterialExamples/TabExamples/TabWithSVGIcons";
+import TabWithCustomTemplate from "./views/MaterialExamples/TabExamples/TabWithCustomTemplate";
 
 Vue.use(Router);
 
@@ -643,6 +648,31 @@ export default new Router({
       path: "/multipleselection",
       name: "MultipleSelection",
       component: MultipleSelection
+    },
+    {
+      path: "/navigationaltabs",
+      name: "NavigationalTabs",
+      component: NavigationalTabs
+    },
+    {
+      path: "/tabwithinnercontent",
+      name: "TabWithInnerContent",
+      component: TabWithInnerContent
+    },
+    {
+      path: "/tabwithhuecolors",
+      name: "TabWithHueColors",
+      component: TabWithHueColors
+    },
+    {
+      path: "/tabwithsvgicons",
+      name: "TabWithSVGIcons",
+      component: TabWithSVGIcons
+    },
+    {
+      path: "/tabwithcustomtemplate",
+      name: "TabWithCustomTemplate",
+      component: TabWithCustomTemplate
     }
   ]
 });

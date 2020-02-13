@@ -455,6 +455,25 @@
             <md-menu-item>
               <md-button class="md-primary" to="/multipleselection">MultipleSelection</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/navigationaltabs">NavigationalTabs</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/tabwithinnercontent">TabWithInnerContent</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/tabwithhuecolors">TabWithHueColors</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/tabwithsvgicons">TabWithSVGIcons</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/tabwithcustomtemplate">TabWithCustomTemplate</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
