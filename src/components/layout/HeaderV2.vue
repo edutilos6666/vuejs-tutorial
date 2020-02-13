@@ -107,6 +107,18 @@
             <md-menu-item>
               <md-button class="md-primary" to="/appoverlappingcontent">AppOverlappingContent</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/avatardefault">AvatarDefault</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/avatarplaceholder">AvatarPlaceholder</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/avatarmultiplesizes">AvatarMultipleSizes</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

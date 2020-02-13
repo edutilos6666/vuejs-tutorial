@@ -24,6 +24,9 @@ import AppRevealAfterScroll from "./views/MaterialExamples/AppExamples/AppReveal
 import AppFlexibleHeightAndTextSize from "./views/MaterialExamples/AppExamples/AppFlexibleHeightAndTextSize.vue";
 import AppLastToolbarRowFixed from "./views/MaterialExamples/AppExamples/AppLastToolbarRowFixed.vue";
 import AppOverlappingContent from "./views/MaterialExamples/AppExamples/AppOverlappingContent.vue";
+import AvatarDefault from "./views/MaterialExamples/AvatarExamples/AvatarDefault.vue";
+import AvatarPlaceholder from "./views/MaterialExamples/AvatarExamples/AvatarPlaceholder.vue";
+import AvatarMultipleSizes from "./views/MaterialExamples/AvatarExamples/AvatarMultipleSizes.vue";
 
 Vue.use(Router);
 
@@ -157,6 +160,21 @@ export default new Router({
       path: "/appoverlappingcontent",
       name: "AppOverlappingContent",
       component: AppOverlappingContent
+    },
+    {
+      path: "/avatardefault",
+      name: "AvatarDefault",
+      component: AvatarDefault
+    },
+    {
+      path: "/avatarplaceholder",
+      name: "AvatarPlaceholder",
+      component: AvatarPlaceholder
+    },
+    {
+      path: "/avatarmultiplesizes",
+      name: "AvatarMultipleSizes",
+      component: AvatarMultipleSizes
     }
   ]
 });
