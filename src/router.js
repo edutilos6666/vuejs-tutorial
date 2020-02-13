@@ -39,6 +39,12 @@ import Alert from "./views/MaterialExamples/DialogExamples/Alert";
 import Confirms from "./views/MaterialExamples/DialogExamples/Confirms";
 import Prompts from "./views/MaterialExamples/DialogExamples/Prompts";
 import DividerExample from "./views/MaterialExamples/DividerExamples/DividerExample";
+import DrawerTemporary from "./views/MaterialExamples/DrawerExamples/DrawerTemporary";
+import DrawerPermanent from "./views/MaterialExamples/DrawerExamples/DrawerPermanent";
+import DrawerClipped from "./views/MaterialExamples/DrawerExamples/DrawerClipped";
+import DrawerCard from "./views/MaterialExamples/DrawerExamples/DrawerCard";
+import DrawerPersistent from "./views/MaterialExamples/DrawerExamples/DrawerPersistent";
+import DrawerMiniDrawerAlwaysVisible from "./views/MaterialExamples/DrawerExamples/DrawerMiniDrawerAlwaysVisible";
 
 Vue.use(Router);
 
@@ -247,6 +253,36 @@ export default new Router({
       path: "/dividerexample",
       name: "DividerExample",
       component: DividerExample
+    },
+    {
+      path: "/drawertemporary",
+      name: "DrawerTemporary",
+      component: DrawerTemporary
+    },
+    {
+      path: "/drawerpermanent",
+      name: "DrawerPermanent",
+      component: DrawerPermanent
+    },
+    {
+      path: "/drawerclipped",
+      name: "DrawerClipped",
+      component: DrawerClipped
+    },
+    {
+      path: "/drawercard",
+      name: "DrawerCard",
+      component: DrawerCard
+    },
+    {
+      path: "/drawerpersistent",
+      name: "DrawerPersistent",
+      component: DrawerPersistent
+    },
+    {
+      path: "/drawerminidraweralwaysvisible",
+      name: "DrawerMiniDrawerAlwaysVisible",
+      component: DrawerMiniDrawerAlwaysVisible
     }
   ]
 });

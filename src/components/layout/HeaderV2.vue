@@ -177,6 +177,33 @@
             <md-menu-item>
               <md-button class="md-primary" to="/dividerexample">DividerExample</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/drawertemporary">DrawerTemporary</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/drawerpermanent">DrawerPermanent</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/drawerclipped">DrawerClipped</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/drawercard">DrawerCard</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/drawerpersistent">DrawerPersistent</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/drawerminidraweralwaysvisible"
+              >DrawerMiniDrawerAlwaysVisible</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
