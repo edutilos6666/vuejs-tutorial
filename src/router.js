@@ -34,6 +34,10 @@ import DatepickerWithDifferentTypeBinding from "./views/MaterialExamples/Datepic
 import DatepickerInitialDateSelected from "./views/MaterialExamples/DatepickerExamples/DatepickerInitialDateSelected";
 import DatepickerImmediateSelection from "./views/MaterialExamples/DatepickerExamples/DatepickerImmediateSelection";
 import DatepickerNoWeekendsAvailable from "./views/MaterialExamples/DatepickerExamples/DatepickerNoWeekendsAvailable";
+import CustomDialogMarkup from "./views/MaterialExamples/DialogExamples/CustomDialogMarkup";
+import Alert from "./views/MaterialExamples/DialogExamples/Alert";
+import Confirms from "./views/MaterialExamples/DialogExamples/Confirms";
+import Prompts from "./views/MaterialExamples/DialogExamples/Prompts";
 
 Vue.use(Router);
 
@@ -217,6 +221,26 @@ export default new Router({
       path: "/datepickernoweekendsavailable",
       name: "DatepickerNoWeekendsAvailable",
       component: DatepickerNoWeekendsAvailable
+    },
+    {
+      path: "/customdialogmarkup",
+      name: "CustomDialogMarkup",
+      component: CustomDialogMarkup
+    },
+    {
+      path: "/alert",
+      name: "Alert",
+      component: Alert
+    },
+    {
+      path: "/confirms",
+      name: "Confirms",
+      component: Confirms
+    },
+    {
+      path: "/prompts",
+      name: "Prompts",
+      component: Prompts
     }
   ]
 });

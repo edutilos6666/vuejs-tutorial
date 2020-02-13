@@ -159,6 +159,20 @@
                 to="/datepickernoweekendsavailable"
               >DatepickerNoWeekendsAvailable</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/customdialogmarkup">CustomDialogMarkup</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/alert">Alert</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/confirms">Confirms</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/prompts">Prompts</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
