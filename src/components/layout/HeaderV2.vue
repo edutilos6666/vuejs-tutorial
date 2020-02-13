@@ -421,6 +421,9 @@
             <md-menu-item>
               <md-button class="md-primary" to="/vuerouterintegration">VueRouterIntegration</md-button>
             </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/subheaderbasic">SubheaderBasic</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

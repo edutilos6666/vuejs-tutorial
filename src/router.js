@@ -95,6 +95,7 @@ import VerticalSteppers from "./views/MaterialExamples/SteppersExamples/Vertical
 import LinearSteppers from "./views/MaterialExamples/SteppersExamples/LinearSteppers";
 import NonEditableSteps from "./views/MaterialExamples/SteppersExamples/NonEditableSteps";
 import VueRouterIntegration from "./views/MaterialExamples/SteppersExamples/VueRouterIntegration";
+import SubheaderBasic from "./views/MaterialExamples/SubheaderExamples/SubheaderBasic";
 
 Vue.use(Router);
 
@@ -583,6 +584,11 @@ export default new Router({
       path: "/vuerouterintegration",
       name: "VueRouterIntegration",
       component: VueRouterIntegration
+    },
+    {
+      path: "/subheaderbasic",
+      name: "SubheaderBasic",
+      component: SubheaderBasic
     }
   ]
 });
