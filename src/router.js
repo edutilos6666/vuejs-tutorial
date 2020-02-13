@@ -55,6 +55,20 @@ import FormAutocompleteBoxLayout from "./views/MaterialExamples/FormExamples/For
 import FormAutocompleteCustomTemplate from "./views/MaterialExamples/FormExamples/FormAutocompleteCustomTemplate";
 import FormAutocompleteSearchAlgo from "./views/MaterialExamples/FormExamples/FormAutocompleteSearchAlgo";
 import FormAutocompleteAsyncOptions from "./views/MaterialExamples/FormExamples/FormAutocompleteAsyncOptions";
+import FormCheckbox from "./views/MaterialExamples/FormExamples/FormCheckbox";
+import FormCheckboxHueColors from "./views/MaterialExamples/FormExamples/FormCheckboxHueColors";
+import FormCheckboxTrueFalseValue from "./views/MaterialExamples/FormExamples/FormCheckboxTrueFalseValue";
+import FormChips from "./views/MaterialExamples/FormExamples/FormChips";
+import FormFile from "./views/MaterialExamples/FormExamples/FormFile";
+import Basic from "./views/MaterialExamples/FormExamples/InputAndTextArea/Basic";
+import Validation from "./views/MaterialExamples/FormExamples/InputAndTextArea/Validation";
+import CharacterCount from "./views/MaterialExamples/FormExamples/InputAndTextArea/CharacterCount";
+import InputWithIcons from "./views/MaterialExamples/FormExamples/InputAndTextArea/InputWithIcons";
+import InputWithInlineActions from "./views/MaterialExamples/FormExamples/InputAndTextArea/InputWithInlineActions";
+import InputWithPrefixesAndSuffixes from "./views/MaterialExamples/FormExamples/InputAndTextArea/InputWithPrefixesAndSuffixes";
+import Radio from "./views/MaterialExamples/FormExamples/Radio";
+import Select from "./views/MaterialExamples/FormExamples/Select";
+import Switch from "./views/MaterialExamples/FormExamples/Switch";
 
 Vue.use(Router);
 
@@ -343,6 +357,76 @@ export default new Router({
       path: "/formautocompleteasyncoptions",
       name: "FormAutocompleteAsyncOptions",
       component: FormAutocompleteAsyncOptions
+    },
+    {
+      path: "/formcheckbox",
+      name: "FormCheckbox",
+      component: FormCheckbox
+    },
+    {
+      path: "/formcheckboxhuecolors",
+      name: "FormCheckboxHueColors",
+      component: FormCheckboxHueColors
+    },
+    {
+      path: "/formcheckboxtruefalsevalue",
+      name: "FormCheckboxTrueFalseValue",
+      component: FormCheckboxTrueFalseValue
+    },
+    {
+      path: "/formchips",
+      name: "FormChips",
+      component: FormChips
+    },
+    {
+      path: "/formfile",
+      name: "FormFile",
+      component: FormFile
+    },
+    {
+      path: "/basic",
+      name: "Basic",
+      component: Basic
+    },
+    {
+      path: "/validation",
+      name: "Validation",
+      component: Validation
+    },
+    {
+      path: "/charactercount",
+      name: "CharacterCount",
+      component: CharacterCount
+    },
+    {
+      path: "/inputwithicons",
+      name: "InputWithIcons",
+      component: InputWithIcons
+    },
+    {
+      path: "/inputwithinlineactions",
+      name: "InputWithInlineActions",
+      component: InputWithInlineActions
+    },
+    {
+      path: "/inputwithprefixesandsuffixes",
+      name: "InputWithPrefixesAndSuffixes",
+      component: InputWithPrefixesAndSuffixes
+    },
+    {
+      path: "/radio",
+      name: "Radio",
+      component: Radio
+    },
+    {
+      path: "/select",
+      name: "Select",
+      component: Select
+    },
+    {
+      path: "/switch",
+      name: "Switch",
+      component: Switch
     }
   ]
 });

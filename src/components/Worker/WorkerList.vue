@@ -34,6 +34,7 @@ export default {
   props: ["workers"],
   methods: {
     deleteWorker(worker) {
+      // eslint-disable-next-line
       console.log("delete worker", worker);
       this.$emit("delete-worker", worker);
     },

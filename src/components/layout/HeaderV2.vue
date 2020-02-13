@@ -256,6 +256,64 @@
                 to="/formautocompleteasyncoptions"
               >FormAutocompleteAsyncOptions</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formcheckbox">FormCheckbox</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formcheckboxhuecolors">FormCheckboxHueColors</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formcheckboxtruefalsevalue"
+              >FormCheckboxTrueFalseValue</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formchips">FormChips</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formfile">FormFile</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/basic">Basic</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/validation">Validation</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/charactercount">CharacterCount</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/inputwithicons">InputWithIcons</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/inputwithinlineactions">InputWithInlineActions</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/inputwithprefixesandsuffixes"
+              >InputWithPrefixesAndSuffixes</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/radio">Radio</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/select">Select</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/switch">Switch</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

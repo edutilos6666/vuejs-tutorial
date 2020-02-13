@@ -40,6 +40,7 @@ export default {
   },
   methods: {
     addWorker(worker) {
+      // eslint-disable-next-line
       console.log(worker);
       this.workers = [...this.workers, worker];
     },
@@ -49,6 +50,7 @@ export default {
     handleShowEditWorker(worker) {
       this.worker = worker;
       this.showEditWorker = !this.showEditWorker;
+      // eslint-disable-next-line
       console.log("HERE");
     },
     handleCloseEditWorker() {
