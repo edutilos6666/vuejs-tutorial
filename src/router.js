@@ -72,6 +72,12 @@ import Switch from "./views/MaterialExamples/FormExamples/Switch";
 import MaterialIcons from "./views/MaterialExamples/IconExamples/MaterialIcons";
 import CustomFonts from "./views/MaterialExamples/IconExamples/CustomFonts";
 import SVGAssets from "./views/MaterialExamples/IconExamples/SVGAssets";
+import SingleLine from "./views/MaterialExamples/ListExamples/SingleLine";
+import DoubleLine from "./views/MaterialExamples/ListExamples/DoubleLine";
+import TripleLine from "./views/MaterialExamples/ListExamples/TripleLine";
+import ListActions from "./views/MaterialExamples/ListExamples/ListActions";
+import Controls from "./views/MaterialExamples/ListExamples/Controls";
+import Expansion from "./views/MaterialExamples/ListExamples/Expansion";
 
 Vue.use(Router);
 
@@ -445,6 +451,36 @@ export default new Router({
       path: "/svgassets",
       name: "SVGAssets",
       component: SVGAssets
+    },
+    {
+      path: "/singleline",
+      name: "SingleLine",
+      component: SingleLine
+    },
+    {
+      path: "/doubleline",
+      name: "DoubleLine",
+      component: DoubleLine
+    },
+    {
+      path: "/tripleline",
+      name: "TripleLine",
+      component: TripleLine
+    },
+    {
+      path: "/listactions",
+      name: "ListActions",
+      component: ListActions
+    },
+    {
+      path: "/controls",
+      name: "Controls",
+      component: Controls
+    },
+    {
+      path: "/expansion",
+      name: "Expansion",
+      component: Expansion
     }
   ]
 });

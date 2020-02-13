@@ -326,6 +326,27 @@
             <md-menu-item>
               <md-button class="md-primary" to="/svgassets">SVGAssets</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/singleline">SingleLine</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/doubleline">DoubleLine</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/tripleline">TripleLine</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/listactions">ListActions</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/controls">Controls</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/expansion">Expansion</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
