@@ -89,6 +89,12 @@ import SnackbarBasic from "./views/MaterialExamples/SnackbarExamples/SnackbarBas
 import SDPositions from "./views/MaterialExamples/SpeedDialExamples/SDPositions";
 import SDEffects from "./views/MaterialExamples/SpeedDialExamples/SDEffects";
 import SDTriggers from "./views/MaterialExamples/SpeedDialExamples/SDTriggers";
+import HorizontalSteppersDefaultLayout from "./views/MaterialExamples/SteppersExamples/HorizontalSteppersDefaultLayout";
+import HorizontalSteppersAlternativeLayout from "./views/MaterialExamples/SteppersExamples/HorizontalSteppersAlternativeLayout";
+import VerticalSteppers from "./views/MaterialExamples/SteppersExamples/VerticalSteppers";
+import LinearSteppers from "./views/MaterialExamples/SteppersExamples/LinearSteppers";
+import NonEditableSteps from "./views/MaterialExamples/SteppersExamples/NonEditableSteps";
+import VueRouterIntegration from "./views/MaterialExamples/SteppersExamples/VueRouterIntegration";
 
 Vue.use(Router);
 
@@ -547,6 +553,36 @@ export default new Router({
       path: "/sdtriggers",
       name: "SDTriggers",
       component: SDTriggers
+    },
+    {
+      path: "/horizontalsteppersdefaultlayout",
+      name: "HorizontalSteppersDefaultLayout",
+      component: HorizontalSteppersDefaultLayout
+    },
+    {
+      path: "/horizontalsteppersalternativelayout",
+      name: "HorizontalSteppersAlternativeLayout",
+      component: HorizontalSteppersAlternativeLayout
+    },
+    {
+      path: "/verticalsteppers",
+      name: "VerticalSteppers",
+      component: VerticalSteppers
+    },
+    {
+      path: "/linearsteppers",
+      name: "LinearSteppers",
+      component: LinearSteppers
+    },
+    {
+      path: "/noneditablesteps",
+      name: "NonEditableSteps",
+      component: NonEditableSteps
+    },
+    {
+      path: "/vuerouterintegration",
+      name: "VueRouterIntegration",
+      component: VueRouterIntegration
     }
   ]
 });

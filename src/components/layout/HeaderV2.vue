@@ -392,6 +392,35 @@
             <md-menu-item>
               <md-button class="md-primary" to="/sdtriggers">SpeedDial Triggers</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/horizontalsteppersdefaultlayout"
+              >HorizontalSteppersDefaultLayout</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/horizontalsteppersalternativelayout"
+              >HorizontalSteppersAlternativeLayout</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/verticalsteppers">VerticalSteppers</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/linearsteppers">LinearSteppers</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/noneditablesteps">NonEditableSteps</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/vuerouterintegration">VueRouterIntegration</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
