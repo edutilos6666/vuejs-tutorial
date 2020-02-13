@@ -12,6 +12,12 @@ import CardBackgroundWithAspectRatio from "./views/MaterialExamples/CardExamples
 import CardThemes from "./views/MaterialExamples/CardExamples/CardThemes.vue";
 import CardExpansionControl from "./views/MaterialExamples/CardExamples/CardExpansionControl.vue";
 import BBDefaultFixedStyle from "./views/MaterialExamples/BottomBarExamples/BBDefaultFixedStyle.vue";
+import BBShiftEffect from "./views/MaterialExamples/BottomBarExamples/BBShiftEffect.vue";
+import BBMorphingStates from "./views/MaterialExamples/BottomBarExamples/BBMorphingStates.vue";
+import BBCustomTemplates from "./views/MaterialExamples/BottomBarExamples/BBCustomTemplates.vue";
+import BadgeWithButtons from "./views/MaterialExamples/BadgeExamples/BadgeWithButtons.vue";
+import BadgeWithLists from "./views/MaterialExamples/BadgeExamples/BadgeWithLists.vue";
+import DenseBadge from "./views/MaterialExamples/BadgeExamples/DenseBadge.vue";
 
 Vue.use(Router);
 
@@ -85,6 +91,36 @@ export default new Router({
       path: "/bbdefaultfixedstyle",
       name: "BBDefaultFixedStyle",
       component: BBDefaultFixedStyle
+    },
+    {
+      path: "/bbshifteffect",
+      name: "BBShiftEffect",
+      component: BBShiftEffect
+    },
+    {
+      path: "/bbmorphingstates",
+      name: "BBMorphingStates",
+      component: BBMorphingStates
+    },
+    {
+      path: "/bbcustomtemplates",
+      name: "BBCustomTemplates",
+      component: BBCustomTemplates
+    },
+    {
+      path: "/badgewithbuttons",
+      name: "BadgeWithButtons",
+      component: BadgeWithButtons
+    },
+    {
+      path: "/badgewithlists",
+      name: "BadgeWithLists",
+      component: BadgeWithLists
+    },
+    {
+      path: "/densebadge",
+      name: "DenseBadge",
+      component: DenseBadge
     }
   ]
 });

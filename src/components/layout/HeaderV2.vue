@@ -58,6 +58,30 @@
             <md-menu-item>
               <md-button class="md-primary" to="/bbdefaultfixedstyle">BBDefaultFixedStyle</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/bbshifteffect">BBShiftEffect</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/bbmorphingstates">BBMorphingStates</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/bbcustomtemplates">BBCustomTemplates</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/badgewithbuttons">BadgeWithButtons</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/badgewithlists">BadgeWithLists</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/densebadge">DenseBadge</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
