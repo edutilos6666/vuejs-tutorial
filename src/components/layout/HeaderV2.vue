@@ -474,6 +474,24 @@
             <md-menu-item>
               <md-button class="md-primary" to="/tabwithcustomtemplate">TabWithCustomTemplate</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/regulartoolbars">RegularToolbars</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/toolbarwithdifferentsizes"
+              >ToolbarWithDifferentSizes</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/toolbarwithrowstitleandicons"
+              >ToolbarWithRowsTitleAndIcons</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

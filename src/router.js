@@ -110,6 +110,9 @@ import TabWithInnerContent from "./views/MaterialExamples/TabExamples/TabWithInn
 import TabWithHueColors from "./views/MaterialExamples/TabExamples/TabWithHueColors";
 import TabWithSVGIcons from "./views/MaterialExamples/TabExamples/TabWithSVGIcons";
 import TabWithCustomTemplate from "./views/MaterialExamples/TabExamples/TabWithCustomTemplate";
+import RegularToolbars from "./views/MaterialExamples/ToolbarExamples/RegularToolbars";
+import ToolbarWithDifferentSizes from "./views/MaterialExamples/ToolbarExamples/ToolbarWithDifferentSizes";
+import ToolbarWithRowsTitleAndIcons from "./views/MaterialExamples/ToolbarExamples/ToolbarWithRowsTitleAndIcons";
 
 Vue.use(Router);
 
@@ -673,6 +676,21 @@ export default new Router({
       path: "/tabwithcustomtemplate",
       name: "TabWithCustomTemplate",
       component: TabWithCustomTemplate
+    },
+    {
+      path: "/regulartoolbars",
+      name: "RegularToolbars",
+      component: RegularToolbars
+    },
+    {
+      path: "/toolbarwithdifferentsizes",
+      name: "ToolbarWithDifferentSizes",
+      component: ToolbarWithDifferentSizes
+    },
+    {
+      path: "/toolbarwithrowstitleandicons",
+      name: "ToolbarWithRowsTitleAndIcons",
+      component: ToolbarWithRowsTitleAndIcons
     }
   ]
 });
