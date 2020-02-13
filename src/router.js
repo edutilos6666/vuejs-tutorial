@@ -86,6 +86,9 @@ import RichContentAndIconAlignment from "./views/MaterialExamples/MenuExamples/R
 import ProgressBar from "./views/MaterialExamples/ProgressExamples/ProgressBar";
 import Spinner from "./views/MaterialExamples/ProgressExamples/Spinner";
 import SnackbarBasic from "./views/MaterialExamples/SnackbarExamples/SnackbarBasic";
+import SDPositions from "./views/MaterialExamples/SpeedDialExamples/SDPositions";
+import SDEffects from "./views/MaterialExamples/SpeedDialExamples/SDEffects";
+import SDTriggers from "./views/MaterialExamples/SpeedDialExamples/SDTriggers";
 
 Vue.use(Router);
 
@@ -529,6 +532,21 @@ export default new Router({
       path: "/snackbarbasic",
       name: "SnackbarBasic",
       component: SnackbarBasic
+    },
+    {
+      path: "/sdpositions",
+      name: "SDPositions",
+      component: SDPositions
+    },
+    {
+      path: "/sdeffects",
+      name: "SDEffects",
+      component: SDEffects
+    },
+    {
+      path: "/sdtriggers",
+      name: "SDTriggers",
+      component: SDTriggers
     }
   ]
 });

@@ -380,6 +380,18 @@
             <md-menu-item>
               <md-button class="md-primary" to="/snackbarbasic">SnackbarBasic</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/sdpositions">SpeedDial Positions</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/sdeffects">SpeedDial Effects</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/sdtriggers">SpeedDial Triggers</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
