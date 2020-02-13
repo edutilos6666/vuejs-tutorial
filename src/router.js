@@ -48,6 +48,13 @@ import DrawerMiniDrawerAlwaysVisible from "./views/MaterialExamples/DrawerExampl
 import ESDefault from "./views/MaterialExamples/EmptyStateExamples/ESDefault";
 import ESRounded from "./views/MaterialExamples/EmptyStateExamples/ESRounded";
 import ESHueColors from "./views/MaterialExamples/EmptyStateExamples/ESHueColors";
+import FormValidation from "./views/MaterialExamples/FormExamples/FormValidation";
+import FormAutocompleteStaticData from "./views/MaterialExamples/FormExamples/FormAutocompleteStaticData";
+import FormAutocompleteTrigger from "./views/MaterialExamples/FormExamples/FormAutocompleteTrigger";
+import FormAutocompleteBoxLayout from "./views/MaterialExamples/FormExamples/FormAutocompleteBoxLayout";
+import FormAutocompleteCustomTemplate from "./views/MaterialExamples/FormExamples/FormAutocompleteCustomTemplate";
+import FormAutocompleteSearchAlgo from "./views/MaterialExamples/FormExamples/FormAutocompleteSearchAlgo";
+import FormAutocompleteAsyncOptions from "./views/MaterialExamples/FormExamples/FormAutocompleteAsyncOptions";
 
 Vue.use(Router);
 
@@ -301,6 +308,41 @@ export default new Router({
       path: "/eshuecolors",
       name: "ESHueColors",
       component: ESHueColors
+    },
+    {
+      path: "/formvalidation",
+      name: "FormValidation",
+      component: FormValidation
+    },
+    {
+      path: "/formautocompletestaticdata",
+      name: "FormAutocompleteStaticData",
+      component: FormAutocompleteStaticData
+    },
+    {
+      path: "/formautocompletetrigger",
+      name: "FormAutocompleteTrigger",
+      component: FormAutocompleteTrigger
+    },
+    {
+      path: "/formautocompleteboxlayout",
+      name: "FormAutocompleteBoxLayout",
+      component: FormAutocompleteBoxLayout
+    },
+    {
+      path: "/formautocompletecustomtemplate",
+      name: "FormAutocompleteCustomTemplate",
+      component: FormAutocompleteCustomTemplate
+    },
+    {
+      path: "/formautocompletesearchalgo",
+      name: "FormAutocompleteSearchAlgo",
+      component: FormAutocompleteSearchAlgo
+    },
+    {
+      path: "/formautocompleteasyncoptions",
+      name: "FormAutocompleteAsyncOptions",
+      component: FormAutocompleteAsyncOptions
     }
   ]
 });

@@ -214,6 +214,48 @@
             <md-menu-item>
               <md-button class="md-primary" to="/eshuecolors">ESHueColors</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formvalidation">FormValidation</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formautocompletestaticdata"
+              >FormAutocompleteStaticData</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/formautocompletetrigger">FormAutocompleteTrigger</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formautocompleteboxlayout"
+              >FormAutocompleteBoxLayout</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formautocompletecustomtemplate"
+              >FormAutocompleteCustomTemplate</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formautocompletesearchalgo"
+              >FormAutocompleteSearchAlgo</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/formautocompleteasyncoptions"
+              >FormAutocompleteAsyncOptions</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
