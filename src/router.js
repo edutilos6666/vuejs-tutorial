@@ -78,6 +78,11 @@ import TripleLine from "./views/MaterialExamples/ListExamples/TripleLine";
 import ListActions from "./views/MaterialExamples/ListExamples/ListActions";
 import Controls from "./views/MaterialExamples/ListExamples/Controls";
 import Expansion from "./views/MaterialExamples/ListExamples/Expansion";
+import StartAndEnd from "./views/MaterialExamples/MenuExamples/StartAndEnd";
+import Alignments from "./views/MaterialExamples/MenuExamples/Alignments";
+import Sizes from "./views/MaterialExamples/MenuExamples/Sizes";
+import AutoClose from "./views/MaterialExamples/MenuExamples/AutoClose";
+import RichContentAndIconAlignment from "./views/MaterialExamples/MenuExamples/RichContentAndIconAlignment";
 
 Vue.use(Router);
 
@@ -481,6 +486,31 @@ export default new Router({
       path: "/expansion",
       name: "Expansion",
       component: Expansion
+    },
+    {
+      path: "/startandend",
+      name: "StartAndEnd",
+      component: StartAndEnd
+    },
+    {
+      path: "/alignments",
+      name: "Alignments",
+      component: Alignments
+    },
+    {
+      path: "/sizes",
+      name: "Sizes",
+      component: Sizes
+    },
+    {
+      path: "/autoclose",
+      name: "AutoClose",
+      component: AutoClose
+    },
+    {
+      path: "/richcontentandiconalignment",
+      name: "RichContentAndIconAlignment",
+      component: RichContentAndIconAlignment
     }
   ]
 });

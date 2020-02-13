@@ -347,6 +347,27 @@
             <md-menu-item>
               <md-button class="md-primary" to="/expansion">Expansion</md-button>
             </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/startandend">StartAndEnd</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/alignments">Alignments</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/sizes">Sizes</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/autoclose">AutoClose</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/richcontentandiconalignment"
+              >RichContentAndIconAlignment</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
