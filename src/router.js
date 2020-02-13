@@ -85,6 +85,7 @@ import AutoClose from "./views/MaterialExamples/MenuExamples/AutoClose";
 import RichContentAndIconAlignment from "./views/MaterialExamples/MenuExamples/RichContentAndIconAlignment";
 import ProgressBar from "./views/MaterialExamples/ProgressExamples/ProgressBar";
 import Spinner from "./views/MaterialExamples/ProgressExamples/Spinner";
+import SnackbarBasic from "./views/MaterialExamples/SnackbarExamples/SnackbarBasic";
 
 Vue.use(Router);
 
@@ -523,6 +524,11 @@ export default new Router({
       path: "/spinner",
       name: "Spinner",
       component: Spinner
+    },
+    {
+      path: "/snackbarbasic",
+      name: "SnackbarBasic",
+      component: SnackbarBasic
     }
   ]
 });

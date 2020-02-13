@@ -376,6 +376,10 @@
             <md-menu-item>
               <md-button class="md-primary" to="/spinner">Spinner</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/snackbarbasic">SnackbarBasic</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
