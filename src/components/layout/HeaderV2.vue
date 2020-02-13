@@ -82,6 +82,31 @@
             <md-menu-item>
               <md-button class="md-primary" to="/densebadge">DenseBadge</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/appregulartoolbars">AppRegularToolbars</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/appfixedtoolbars">AppFixedToolbars</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/apprevealafterscroll">AppRevealAfterScroll</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button
+                class="md-primary"
+                to="/appflexibleheightandtextsize"
+              >AppFlexibleHeightAndTextSize</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/applasttoolbarrowfixed">AppLastToolbarRowFixed</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/appoverlappingcontent">AppOverlappingContent</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

@@ -18,6 +18,12 @@ import BBCustomTemplates from "./views/MaterialExamples/BottomBarExamples/BBCust
 import BadgeWithButtons from "./views/MaterialExamples/BadgeExamples/BadgeWithButtons.vue";
 import BadgeWithLists from "./views/MaterialExamples/BadgeExamples/BadgeWithLists.vue";
 import DenseBadge from "./views/MaterialExamples/BadgeExamples/DenseBadge.vue";
+import AppRegularToolbars from "./views/MaterialExamples/AppExamples/AppRegularToolbars.vue";
+import AppFixedToolbars from "./views/MaterialExamples/AppExamples/AppFixedToolbars.vue";
+import AppRevealAfterScroll from "./views/MaterialExamples/AppExamples/AppRevealAfterScroll.vue";
+import AppFlexibleHeightAndTextSize from "./views/MaterialExamples/AppExamples/AppFlexibleHeightAndTextSize.vue";
+import AppLastToolbarRowFixed from "./views/MaterialExamples/AppExamples/AppLastToolbarRowFixed.vue";
+import AppOverlappingContent from "./views/MaterialExamples/AppExamples/AppOverlappingContent.vue";
 
 Vue.use(Router);
 
@@ -121,6 +127,36 @@ export default new Router({
       path: "/densebadge",
       name: "DenseBadge",
       component: DenseBadge
+    },
+    {
+      path: "/appregulartoolbars",
+      name: "AppRegularToolbars",
+      component: AppRegularToolbars
+    },
+    {
+      path: "/appfixedtoolbars",
+      name: "AppFixedToolbars",
+      component: AppFixedToolbars
+    },
+    {
+      path: "/apprevealafterscroll",
+      name: "AppRevealAfterScroll",
+      component: AppRevealAfterScroll
+    },
+    {
+      path: "/appflexibleheightandtextsize",
+      name: "AppFlexibleHeightAndTextSize",
+      component: AppFlexibleHeightAndTextSize
+    },
+    {
+      path: "/applasttoolbarrowfixed",
+      name: "AppLastToolbarRowFixed",
+      component: AppLastToolbarRowFixed
+    },
+    {
+      path: "/appoverlappingcontent",
+      name: "AppOverlappingContent",
+      component: AppOverlappingContent
     }
   ]
 });
