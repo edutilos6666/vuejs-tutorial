@@ -38,6 +38,7 @@ import CustomDialogMarkup from "./views/MaterialExamples/DialogExamples/CustomDi
 import Alert from "./views/MaterialExamples/DialogExamples/Alert";
 import Confirms from "./views/MaterialExamples/DialogExamples/Confirms";
 import Prompts from "./views/MaterialExamples/DialogExamples/Prompts";
+import DividerExample from "./views/MaterialExamples/DividerExamples/DividerExample";
 
 Vue.use(Router);
 
@@ -241,6 +242,11 @@ export default new Router({
       path: "/prompts",
       name: "Prompts",
       component: Prompts
+    },
+    {
+      path: "/dividerexample",
+      name: "DividerExample",
+      component: DividerExample
     }
   ]
 });

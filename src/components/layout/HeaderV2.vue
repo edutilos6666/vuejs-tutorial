@@ -173,6 +173,10 @@
             <md-menu-item>
               <md-button class="md-primary" to="/prompts">Prompts</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/dividerexample">DividerExample</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>
