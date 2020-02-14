@@ -533,6 +533,18 @@
             <md-menu-item>
               <md-button class="md-primary" to="/pvbarchart">PVBarChart</md-button>
             </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvcarouselexample">PVCarouselExample</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvdatatableexample">PVDataTableExample</md-button>
+            </md-menu-item>
+
+            <md-menu-item>
+              <md-button class="md-primary" to="/pvdataviewexample">PVDataViewExample</md-button>
+            </md-menu-item>
           </md-menu-content>
         </md-menu>
       </div>

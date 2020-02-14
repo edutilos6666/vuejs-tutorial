@@ -21,6 +21,14 @@ import PVAutoComplete from "primevue/autocomplete";
 import PVCalendar from "primevue/calendar";
 import PVEditor from "primevue/editor";
 import PVChart from "primevue/chart";
+import PVCarousel from "primevue/carousel";
+import PVDataTable from "primevue/datatable";
+import PVColumn from "primevue/column";
+import PVColumnGroup from "primevue/columngroup";
+import PVDataView from "primevue/dataview";
+import PVDrowdown from "primevue/dropdown";
+import PVDataViewLayoutOptions from "primevue/dataviewlayoutoptions";
+import PVPanel from "primevue/panel";
 
 Vue.use(PVToastService);
 
@@ -31,6 +39,14 @@ Vue.component("PVAutoComplete", PVAutoComplete);
 Vue.component("PVCalendar", PVCalendar);
 Vue.component("PVEditor", PVEditor);
 Vue.component("PVChart", PVChart);
+Vue.component("PVCarousel", PVCarousel);
+Vue.component("PVDataTable", PVDataTable);
+Vue.component("PVColumn", PVColumn);
+Vue.component("PVColumnGroup", PVColumnGroup);
+Vue.component("PVDataView", PVDataView);
+Vue.component("PVDrowdown", PVDrowdown);
+Vue.component("PVDataViewLayoutOptions", PVDataViewLayoutOptions);
+Vue.component("PVPanel", PVPanel);
 
 import "primevue/resources/themes/nova-light/theme.css";
 import "primevue/resources/primevue.min.css";

@@ -123,6 +123,9 @@ import PVCalendarExample from "./views/PrimeVueExamples/PVCalendarExample";
 import PVEditorExample from "./views/PrimeVueExamples/PVEditorExample";
 import PVPieChart from "./views/PrimeVueExamples/ChartExamples/PVPieChart";
 import PVBarChart from "./views/PrimeVueExamples/ChartExamples/PVBarChart";
+import PVCarouselExample from "./views/PrimeVueExamples/PVCarouselExample";
+import PVDataTableExample from "./views/PrimeVueExamples/PVDataTableExample";
+import PVDataViewExample from "./views/PrimeVueExamples/PVDataViewExample";
 
 Vue.use(Router);
 
@@ -746,6 +749,21 @@ export default new Router({
       path: "/pvbarchart",
       name: "PVBarChart",
       component: PVBarChart
+    },
+    {
+      path: "/pvcarouselexample",
+      name: "PVCarouselExample",
+      component: PVCarouselExample
+    },
+    {
+      path: "/pvdatatableexample",
+      name: "PVDataTableExample",
+      component: PVDataTableExample
+    },
+    {
+      path: "/pvdataviewexample",
+      name: "PVDataViewExample",
+      component: PVDataViewExample
     }
   ]
 });
