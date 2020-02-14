@@ -29,6 +29,12 @@ import PVDataView from "primevue/dataview";
 import PVDrowdown from "primevue/dropdown";
 import PVDataViewLayoutOptions from "primevue/dataviewlayoutoptions";
 import PVPanel from "primevue/panel";
+import "primevue/resources/themes/nova-light/theme.css";
+import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
+
+import KeenUI from "keen-ui";
+import "keen-ui/dist/keen-ui.css";
 
 Vue.use(PVToastService);
 
@@ -47,10 +53,7 @@ Vue.component("PVDataView", PVDataView);
 Vue.component("PVDrowdown", PVDrowdown);
 Vue.component("PVDataViewLayoutOptions", PVDataViewLayoutOptions);
 Vue.component("PVPanel", PVPanel);
-
-import "primevue/resources/themes/nova-light/theme.css";
-import "primevue/resources/primevue.min.css";
-import "primeicons/primeicons.css";
+Vue.component("KeenUI", KeenUI);
 
 new Vue({
   router,

@@ -126,6 +126,8 @@ import PVBarChart from "./views/PrimeVueExamples/ChartExamples/PVBarChart";
 import PVCarouselExample from "./views/PrimeVueExamples/PVCarouselExample";
 import PVDataTableExample from "./views/PrimeVueExamples/PVDataTableExample";
 import PVDataViewExample from "./views/PrimeVueExamples/PVDataViewExample";
+// Keen-UI examples
+import UIAlertExample from "./views/KeenUIExamples/UIAlertExample";
 
 Vue.use(Router);
 
@@ -764,6 +766,11 @@ export default new Router({
       path: "/pvdataviewexample",
       name: "PVDataViewExample",
       component: PVDataViewExample
+    },
+    {
+      path: "/uialertexample",
+      name: "UIAlertExample",
+      component: UIAlertExample
     }
   ]
 });
