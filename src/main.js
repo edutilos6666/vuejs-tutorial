@@ -33,11 +33,6 @@ import "primevue/resources/themes/nova-light/theme.css";
 import "primevue/resources/primevue.min.css";
 import "primeicons/primeicons.css";
 
-import KeenUI from "keen-ui";
-import "keen-ui/dist/keen-ui.css";
-
-Vue.use(PVToastService);
-
 Vue.component("PVInputText", PVInputText);
 Vue.component("PVButton", PVButton);
 Vue.component("PVToast", PVToast);
@@ -53,9 +48,28 @@ Vue.component("PVDataView", PVDataView);
 Vue.component("PVDrowdown", PVDrowdown);
 Vue.component("PVDataViewLayoutOptions", PVDataViewLayoutOptions);
 Vue.component("PVPanel", PVPanel);
-Vue.component("KeenUI", KeenUI);
+
+//=== Keen UI ====//
+// import KeenUI from "keen-ui";
+import { UiAlert, UiButton, UiIcon, UiTab, UiTabs } from "keen-ui";
+
+Vue.use(PVToastService);
+// Vue.use(KeenUI);
+// Vue.component("KeenUI", KeenUI);
+Vue.component("UiAlert", UiAlert);
+Vue.component("UiButton", UiButton);
+Vue.component("UiIcon", UiIcon);
+Vue.component("UiTab", UiTab);
+Vue.component("UiTabs", UiTabs);
+
+// import vuetify from "vuetify";
+// import "vuetify/dist/vuetify.min.css";
+// Vue.use(vuetify);
+import vuetify from "@/plugins/vuetify";
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
+  vuetify,
+  components: {}
 }).$mount("#app");

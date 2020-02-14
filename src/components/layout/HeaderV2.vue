@@ -547,6 +547,29 @@
             </md-menu-item>
           </md-menu-content>
         </md-menu>
+
+        <!-- Keen UI examples  -->
+        <md-menu md-size="small">
+          <md-button class="md-primary" md-menu-trigger>Keen UI</md-button>
+          <md-menu-content>
+            <md-menu-item>
+              <md-button class="md-primary" to="/uialertexample">UIAlertExample</md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+
+        <!-- Vuetify examples -->
+        <md-menu md-size="small">
+          <md-button class="md-primary" md-menu-trigger>Vuetify</md-button>
+          <md-menu-content>
+            <md-menu-item>
+              <md-button class="md-primary" to="/valertexample">VAlertExample</md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button class="md-primary" to="/vbannersexample">VBannersExample</md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
       </div>
 
       <div class="md-toolbar-section-end">

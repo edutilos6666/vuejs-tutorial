@@ -129,6 +129,10 @@ import PVDataViewExample from "./views/PrimeVueExamples/PVDataViewExample";
 // Keen-UI examples
 import UIAlertExample from "./views/KeenUIExamples/UIAlertExample";
 
+// Vuetify
+import VAlertExample from "./views/VuetifyExamples/VAlertExample";
+import VBannersExample from "./views/VuetifyExamples/VBannersExample";
+
 Vue.use(Router);
 
 export default new Router({
@@ -771,6 +775,16 @@ export default new Router({
       path: "/uialertexample",
       name: "UIAlertExample",
       component: UIAlertExample
+    },
+    {
+      path: "/valertexample",
+      name: "VAlertExample",
+      component: VAlertExample
+    },
+    {
+      path: "/vbannersexample",
+      name: "VBannersExample",
+      component: VBannersExample
     }
   ]
 });
